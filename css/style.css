@@ -1,0 +1,136 @@
+:root{
+    --golden:rgb(203,161,53)
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header section */
+.navbar{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.active{
+    color: var(--golden) !important;
+    border-bottom: 2px solid var(--golden) !important;
+}
+.navbar .nav-link{
+   
+    font-size: 18px !important;
+    border-bottom: 2px solid transparent;
+}
+.navbar .nav-item{
+    padding: 5px ;
+}
+.navbar .nav-link:hover{
+  color: var(--golden) !important;
+  border-bottom: 2px solid var(--golden);
+}
+.appointment-request{
+    color: white !important;
+    background-color: var(--golden);
+    padding: 10px 20px !important;
+    transition: .5s;
+    border-radius: 50px;
+    text-align: center;
+}
+.appointment-request:hover{
+ 
+    background-color: white;
+   
+}
+.top{
+    background-color: var(--golden);
+}
+
+.carousel-item img{
+    height: 90vh;
+}
+
+.slider-images{
+    position: relative;
+}
+.slider-text{
+    position: absolute;
+    top: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 40%;
+    height: 100%;
+    padding: 80px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slider-text h1{
+    font-weight: 900;
+}
+.btn-explore,.btn-about{
+    border: 1px solid var(--golden);
+    border-radius: 50px;
+    padding: 10px 60px;
+    color: white;
+    background-color: var(--golden);
+    transition: 1s;
+}
+.btn-explore:hover,.btn-about:hover{
+    background-color: transparent;
+    color: var(--golden);
+}
+
+.btn-tour{
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 10px 60px;
+    color: white;
+    transition: 1s;
+}
+.btn-tour:hover{
+    background-color: var(--golden);
+    
+}
+/* .mediverse{
+    color: var(--golden);
+} */
+
+.welcome-note{
+    width: 80%;
+}
+.clinic-img img{
+   height: 70vh !important;
+   border-radius: 50px;
+}
+.services-card{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    transition: all 0.5s;
+cursor: pointer;
+border-radius: 50px;
+
+}
+.services-img{
+    width: 20%;
+height: 70px;
+}
+.services-details{
+    background-color: var(--golden);
+}
+@media only screen and (max-width:992px){
+    .slider-text{
+
+        width: 100%;
+      
+    } 
+    .welcome-note{
+        width: 100%;
+    }
+}
