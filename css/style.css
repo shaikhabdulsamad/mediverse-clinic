@@ -186,8 +186,11 @@ font-size: 40px;
     }
     .slider-btn button{
        
-        padding: 10px 60px;
+        padding: 10px 40px;
         
+    }
+    .section-pedding{
+        padding: 6% 0;
     }
 }
 
