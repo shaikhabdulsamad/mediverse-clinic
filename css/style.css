@@ -1,5 +1,7 @@
 :root{
-    --golden:rgb(203,161,53)
+    --golden:rgb(203,161,53);
+    --black:rgb(0,0,0)
+
 }
 
 body{
@@ -8,8 +10,14 @@ body{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
+.section-pedding{
+    padding: 4% 0;
+}
 /* header section */
+
+ .nav .nav-item a{
+        padding: 0 16px; 
+    }
 .navbar{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -22,6 +30,8 @@ body{
    
     font-size: 18px !important;
     border-bottom: 2px solid transparent;
+    width: fit-content;
+
 }
 .navbar .nav-item{
     padding: 5px ;
@@ -30,6 +40,7 @@ body{
   color: var(--golden) !important;
   border-bottom: 2px solid var(--golden);
 }
+
 .appointment-request{
     color: white !important;
     background-color: var(--golden);
@@ -77,6 +88,7 @@ body{
     color: white;
     background-color: var(--golden);
     transition: 1s;
+    
 }
 .btn-explore:hover,.btn-about:hover{
     background-color: transparent;
@@ -123,14 +135,59 @@ height: 70px;
 }
 .services-details{
     background-color: var(--golden);
+    padding: 6% 0;
+}
+.reviews{
+    padding: 5% 0 0 0;
+}
+.name-designation{
+    margin-left: 10px;
+}
+.active-star{
+    color: var(--golden);
+}
+.footer-top{
+    background-color: var(--golden);
+    color: white;
+    padding: 5% 0 3% 0;
+}
+.footer-top .col{
+margin-bottom: 10px !important;
+}
+.footer-nav .nav-link{
+   margin: 0 !important;
+    padding: 0 !important;
+color: white;
+line-height: 40px;
+}
+.footer-social .nav-link{
+    margin: 0 !important;
+    padding: 10px !important;
+color: white;
+font-size: 40px;
+}
+.footer-bottom{
+    background-color: white;
+    padding: 1% 0;
 }
 @media only screen and (max-width:992px){
     .slider-text{
 
         width: 100%;
-      
+        padding: 10px 12px;
     } 
     .welcome-note{
         width: 100%;
     }
+    .slider-btn{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .slider-btn button{
+       
+        padding: 10px 60px;
+        
+    }
 }
+
