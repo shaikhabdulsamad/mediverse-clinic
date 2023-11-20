@@ -1,0 +1,28 @@
+.contact-text a{
+    color: black !important;
+}
+.contact-text .footer-social a{
+    color: var(--golden) !important;
+}
+.contact-form{
+    background-color: var(--golden);
+    
+}
+.contact-form label{
+    color: white;
+}
+.contact-form button{
+    background-color: white;
+    color: var(--golden);
+}
+.contact-form button{
+    background-color: white;
+    color: var(--golden);
+}
+.contact-form button:hover{
+    background-color: black;
+    color: white;
+}
+.contact-form, .contact-text{
+    margin-top: 6%;
+}
