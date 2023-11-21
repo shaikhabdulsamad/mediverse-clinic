@@ -129,6 +129,16 @@ cursor: pointer;
 border-radius: 50px;
 
 }
+.services-card2{
+    cursor: pointer;
+    border-radius: 50px;
+    padding-bottom:10px ; 
+    text-align: center;
+}
+.services-card2 img{
+    
+    border-radius: 50px 50px 0 0; 
+}
 .services-img{
     width: 20%;
 height: 70px;
@@ -169,6 +179,10 @@ font-size: 40px;
 .footer-bottom{
     background-color: white;
     padding: 1% 0;
+}
+.card-body h5{
+    font-weight: 900;
+    font-size: 24px;
 }
 @media only screen and (max-width:992px){
     .slider-text{
