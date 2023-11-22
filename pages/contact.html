@@ -100,31 +100,35 @@
                         <div class="row ">
                             <div class="col-6">
                                 <label for="">Your Name</label>
-                                <input type="text" name="name" class="form-control" placeholder="name"
+                                <input type="text" name="name" id="name" class="form-control" placeholder="name"
                                     aria-label="First name" required>
                             </div>
                             <div class="col-6">
                                 <label for="">Your Email</label>
-                                <input type="email" name="email" class="form-control" placeholder="email"
+                                <input type="email" name="email" id="email" class="form-control" placeholder="email"
                                     aria-label="Last name" required>
                             </div>
                             <div class="col-6 mt-4">
                                 <label for="">Contact No.</label>
-                                <input type="phone" name="phone" class="form-control" placeholder="phone"
+                                <input type="phone" name="phone" id="phone" class="form-control" placeholder="phone"
                                     aria-label="First name" required>
                             </div>
                             <div class="col-6 mt-4">
-                                <label for="">Subject</label>
-                                <input type="text" name="subject" class="form-control" placeholder="subject"
-                                    aria-label="Last name" required>
+                                <label for="">Service</label>
+                               
+                                    <select name="service" id="service"  class="form-control">
+                                        <option value="Dental">Dental</option>
+                                        <option value="Aesthetic">Aesthetic</option>
+
+                                    </select>
                             </div>
                             <div class="col-12 mt-4">
                                 <label for="">Message</label>
-                                <textarea name="message" class="form-control" id="" placeholder="message" cols="30"
+                                <textarea name="message" class="form-control" id="message" placeholder="message" cols="30"
                                     rows="8" required></textarea>
                             </div>
                             <div class="text-center mt-5">
-                                <button class="btn-about" onclick="submit()">Send Message</button>
+                                <button class="btn-about" onclick="sendMail()">Send Message</button>
                             </div>
                         </div>
                     </div>
@@ -287,6 +291,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("C13kl4tcX_J_tetrX");
+   })();
+</script>
+<script src="../js/contact.js"></script>
 </body>
 
 </html>
