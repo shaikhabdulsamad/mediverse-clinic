@@ -1,8 +1,10 @@
 :root{
-    --golden:rgb(203,161,53);
+    /* --golden:rgb(203,161,53); */
+    --golden: rgb(0,188,212);
     --black: #1C1C1C;
     --black2: #3B3B3B;
     --white: white;
+    --blue: rgb(0,188,212);
 }
 
 body{
@@ -15,7 +17,9 @@ body{
     padding: 4% 0;
 }
 /* header section */
-
+.menu{
+    color: var(--white);
+}
  .nav .nav-item a{
         padding: 0 16px; 
         color: var(--white);
@@ -24,7 +28,7 @@ body{
         color: var(--black); 
     }
 .navbar{
-    background-color: var(--black);
+    background-color: var(--white);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .active{
@@ -36,7 +40,7 @@ body{
     font-size: 18px !important;
     border-bottom: 2px solid transparent;
     width: fit-content;
-    color: var(--white);
+    color: rgb(0,188,212);
 
 }
 .navbar .nav-item{
@@ -197,9 +201,9 @@ color: var(--white);
 font-size: 40px;
 }
 .footer-bottom{
-    background-color: var(--black);
+    background-color: var(--white);
     padding: 1% 0;
-    color: var(--white);
+    color: var(--black);
 }
 .card-body h5{
     font-weight: 900;
