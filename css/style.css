@@ -1,10 +1,10 @@
 :root{
-    /* --golden:rgb(203,161,53); */
+    --golden:rgb(203,161,53);
     /* --golden: rgb(0,188,212); */
     /* --golden: rgb(12,117,251); */
     /* --golden: #81603c; */
-    --golden: #e9be52;
-    --black: #1C1C1C;
+    /* --golden: #e9be52; */
+    --black: #1c1c1cee;
     --black2: #3B3B3B;
     --white: white;
     --blue: rgb(0,188,212);
@@ -31,7 +31,7 @@ body{
         color: var(--black); 
     }
 .navbar{
-    background-color: var(--white);
+    background-color: var(--black);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .active{
@@ -43,7 +43,7 @@ body{
     font-size: 18px !important;
     border-bottom: 2px solid transparent;
     width: fit-content;
-    color: var(--black);
+    color: var(--white);
 
 }
 .navbar .nav-item{
