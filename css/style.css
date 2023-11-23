@@ -1,6 +1,8 @@
 :root{
     /* --golden:rgb(203,161,53); */
-    --golden: rgb(0,188,212);
+    /* --golden: rgb(0,188,212); */
+    /* --golden: rgb(12,117,251); */
+    --golden: rgb(6,67,121);
     --black: #1C1C1C;
     --black2: #3B3B3B;
     --white: white;
@@ -40,7 +42,7 @@ body{
     font-size: 18px !important;
     border-bottom: 2px solid transparent;
     width: fit-content;
-    color: rgb(0,188,212);
+    color: var(--black);
 
 }
 .navbar .nav-item{
