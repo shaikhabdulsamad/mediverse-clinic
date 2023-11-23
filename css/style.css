@@ -1,7 +1,8 @@
 :root{
     --golden:rgb(203,161,53);
-    --black:rgb(0,0,0)
-
+    --black: #1C1C1C;
+    --black2: #3B3B3B;
+    --white: white;
 }
 
 body{
@@ -17,9 +18,13 @@ body{
 
  .nav .nav-item a{
         padding: 0 16px; 
+        color: var(--white);
+    }
+    .nav .nav-item a:hover{
+        color: var(--black); 
     }
 .navbar{
-    background-color: white;
+    background-color: var(--black);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .active{
@@ -31,6 +36,7 @@ body{
     font-size: 18px !important;
     border-bottom: 2px solid transparent;
     width: fit-content;
+    color: var(--white);
 
 }
 .navbar .nav-item{
@@ -42,7 +48,7 @@ body{
 }
 
 .appointment-request{
-    color: white !important;
+    color: var(--white) !important;
     background-color: var(--golden);
     padding: 10px 20px !important;
     transition: .5s;
@@ -51,7 +57,7 @@ body{
 }
 .appointment-request:hover{
  
-    background-color: white;
+    background-color: var(--white);
    
 }
 .top{
@@ -68,7 +74,7 @@ body{
 .slider-text{
     position: absolute;
     top: 0;
-    color: white;
+    color: var(--white);
     background-color: rgba(0, 0, 0, 0.3);
     width: 40%;
     height: 100%;
@@ -85,7 +91,7 @@ body{
     border: 1px solid var(--golden);
     border-radius: 50px;
     padding: 10px 60px;
-    color: white;
+    color: var(--white);
     background-color: var(--golden);
     transition: 1s;
     
@@ -96,11 +102,11 @@ body{
 }
 
 .btn-tour{
-    border: 1px solid white;
+    border: 1px solid var(--white);
     border-radius: 50px;
     background-color: transparent;
     padding: 10px 60px;
-    color: white;
+    color: var(--white);
     transition: 1s;
 }
 .btn-tour:hover{
@@ -119,21 +125,30 @@ body{
    border-radius: 50px;
 }
 .services-card{
-    background-color: white;
+    background-color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 10px;
-    transition: all 0.5s;
+    transition: 0.5s;
 cursor: pointer;
 border-radius: 50px;
+color: var(--black);
 
+
+}
+.services-card:hover, .services-card2:hover{
+    background-color: var(--black);
+    color: var(--white);
 }
 .services-card2{
     cursor: pointer;
     border-radius: 50px;
     padding-bottom:10px ; 
     text-align: center;
+    background-color: var(--white);
+    color: var(--black);
+    transition: 1s;
 }
 .services-card2 img{
     
@@ -158,7 +173,7 @@ height: 70px;
 }
 .footer-top{
     background-color: var(--golden);
-    color: white;
+    color: var(--white);
     padding: 5% 0 3% 0;
 }
 .footer-top .col{
@@ -167,18 +182,24 @@ margin-bottom: 10px !important;
 .footer-nav .nav-link{
    margin: 0 !important;
     padding: 0 !important;
-color: white;
+color: var(--white);
 line-height: 40px;
+
 }
+.footer-nav .nav-link:hover{
+  color: var(--black);
+ 
+ }
 .footer-social .nav-link{
     margin: 0 !important;
     padding: 10px !important;
-color: white;
+color: var(--white);
 font-size: 40px;
 }
 .footer-bottom{
-    background-color: white;
+    background-color: var(--black);
     padding: 1% 0;
+    color: var(--white);
 }
 .card-body h5{
     font-weight: 900;

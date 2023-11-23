@@ -20,7 +20,7 @@
     color: var(--golden);
 }
 .contact-form button:hover{
-    background-color: black;
+    background-color: var(--black);
     color: white;
 }
 .contact-form, .contact-text{
