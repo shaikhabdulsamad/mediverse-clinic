@@ -1,0 +1,50 @@
+.menu{
+    color: var(--golden);
+}
+ .nav .nav-item a{
+        padding: 0 16px; 
+        color: var(--white);
+    }
+    .nav .nav-item a:hover{
+        color: var(--black); 
+    }
+.navbar{
+    background-color: var(--black);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.active{
+    color: var(--golden) !important;
+    border-bottom: 2px solid var(--golden) !important;
+}
+.navbar .nav-link{
+   
+    font-size: 18px !important;
+    border-bottom: 2px solid transparent;
+    width: fit-content;
+    color: var(--white);
+
+}
+.navbar .nav-item{
+    padding: 5px ;
+}
+.navbar .nav-link:hover{
+  color: var(--golden) !important;
+  border-bottom: 2px solid var(--golden);
+}
+
+.appointment-request{
+    color: var(--white) !important;
+    background-color: var(--golden);
+    padding: 10px 20px !important;
+    transition: .5s;
+    border-radius: 50px;
+    text-align: center;
+}
+.appointment-request:hover{
+ 
+    background-color: var(--white);
+   
+}
+.top{
+    background-color: var(--golden);
+}

@@ -1,5 +1,6 @@
 :root{
-    --golden:rgb(203,161,53);
+    --golden:rgb(203, 171, 89);
+    /* --golden:rgb(203,161,53); */
     /* --golden: rgb(0,188,212); */
     /* --golden: rgb(12,117,251); */
     /* --golden: #81603c; */
@@ -19,57 +20,7 @@ body{
 .section-pedding{
     padding: 4% 0;
 }
-/* header section */
-.menu{
-    color: var(--golden);
-}
- .nav .nav-item a{
-        padding: 0 16px; 
-        color: var(--white);
-    }
-    .nav .nav-item a:hover{
-        color: var(--black); 
-    }
-.navbar{
-    background-color: var(--black);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-.active{
-    color: var(--golden) !important;
-    border-bottom: 2px solid var(--golden) !important;
-}
-.navbar .nav-link{
-   
-    font-size: 18px !important;
-    border-bottom: 2px solid transparent;
-    width: fit-content;
-    color: var(--white);
 
-}
-.navbar .nav-item{
-    padding: 5px ;
-}
-.navbar .nav-link:hover{
-  color: var(--golden) !important;
-  border-bottom: 2px solid var(--golden);
-}
-
-.appointment-request{
-    color: var(--white) !important;
-    background-color: var(--golden);
-    padding: 10px 20px !important;
-    transition: .5s;
-    border-radius: 50px;
-    text-align: center;
-}
-.appointment-request:hover{
- 
-    background-color: var(--white);
-   
-}
-.top{
-    background-color: var(--golden);
-}
 
 .carousel-item img{
     height: 90vh;
@@ -120,17 +71,16 @@ body{
     background-color: var(--golden);
     
 }
-/* .mediverse{
-    color: var(--golden);
-} */
+
 
 .welcome-note{
     width: 80%;
 }
 .clinic-img img{
-   height: 70vh !important;
+   height: 70vh;
    border-radius: 50px;
 }
+
 .services-card{
     background-color: var(--white);
     display: flex;
@@ -141,9 +91,8 @@ body{
 cursor: pointer;
 border-radius: 50px;
 color: var(--black);
-
-
 }
+
 .services-card:hover, .services-card2:hover{
     background-color: var(--black);
     color: var(--white);
@@ -178,36 +127,7 @@ height: 70px;
 .active-star{
     color: var(--golden);
 }
-.footer-top{
-    background-color: var(--golden);
-    color: var(--white);
-    padding: 5% 0 3% 0;
-}
-.footer-top .col{
-margin-bottom: 10px !important;
-}
-.footer-nav .nav-link{
-   margin: 0 !important;
-    padding: 0 !important;
-color: var(--white);
-line-height: 40px;
 
-}
-.footer-nav .nav-link:hover{
-  color: var(--black);
- 
- }
-.footer-social .nav-link{
-    margin: 0 !important;
-    padding: 10px !important;
-color: var(--white);
-font-size: 40px;
-}
-.footer-bottom{
-    background-color: var(--white);
-    padding: 1% 0;
-    color: var(--black);
-}
 .card-body h5{
     font-weight: 900;
     font-size: 24px;
@@ -216,6 +136,7 @@ font-size: 40px;
     background: var(--golden) !important;
 
 }
+
 @media only screen and (max-width:992px){
     .slider-text{
 
@@ -238,5 +159,8 @@ font-size: 40px;
     .section-pedding{
         padding: 8% 0;
     }
+    .clinic-img img{
+        height: 100% ;
+     }
 }
 

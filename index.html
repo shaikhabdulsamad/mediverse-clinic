@@ -14,6 +14,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
 
 </head>
 
@@ -39,9 +41,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light text-center" href="javascript:void(0)">
-                            <img src="images/social/schedule.png"  alt="" width="20px"> <span>Mon-Sat:
-                                11:00am to 10:00pm / Sun: 03:00pm to 09:00pm</span> 
-                        
+                            <img src="images/social/schedule.png" alt="" width="20px"> <span>Mon-Sat:
+                                11:00am to 10:00pm / Sun: 03:00pm to 09:00pm</span>
+
                         </a>
                     </li>
                 </ul>
@@ -120,8 +122,9 @@
                             Aesthetic Resoration, Smile Makeover, Facial Symmetry and Harmonization, orthodontics and
                             more.</p>
                         <div class="slider-btn">
-                            <button class="btn-explore ">Explore</button>
-                            <button class="btn-tour">Virtual Tour</button>
+                            <a href="pages/services.html"> <button class="btn-explore">Explore</button></a>
+                            <button class="btn-tour" data-bs-toggle="modal" data-bs-target="#exampleModal">Virtual
+                                Tour</button>
                         </div>
                     </div>
                 </div>
@@ -138,7 +141,7 @@
                         WELCOME TO MEDIVERSE CLINICS WHERE MEDICINE MEETS EXCELLENCE
                     </h1>
 
-                    <p class="fs-5 mt-3">At Mediverse Dental and Aesthetic Clinic, we make sure that you get the most
+                    <p class="fs-5 mt-4">At Mediverse Dental and Aesthetic Clinic, we make sure that you get the most
                         distinctive experience. The Clinic incorporates strict hygiene and sterilization protocols and
                         is equipped with all the advanced technology.</p>
                     <a href="./pages/about.html">
@@ -158,7 +161,7 @@
             <div class="container-lg d-flex justify-content-center">
                 <div class="text-center welcome-note">
                     <h1 class="fw-bold ">Our Expert Doctors</h1>
-                    <p class="fs-5 mt-3">
+                    <p class="fs-5 mt-4">
 
                         At our practice, we take pride in our team who is committed to deliver exceptional dental and
                         aesthetic services. With their expertise and care, you can trust us with your dental and
@@ -181,7 +184,7 @@
             <div class="container-lg d-flex justify-content-center">
                 <div class="text-center welcome-note">
                     <h1 class="fw-bold">Our Services</h1>
-                    <p class="fs-5 mt-3">
+                    <p class="fs-5 mt-4">
 
                         At Mediverse Dental and Aesthetic Clinic we provide all dental and aesthetic services related to
                         orthodontics, prosthodontics, endodontics, maxillofacial surgery, peadriatric dentistry,
@@ -462,7 +465,7 @@
             <div class="container-lg">
                 <div class="text-center">
                     <h1 class="fw-bold">Request an Appointment Today</h1>
-                    <p class="fs-5 mt-3">Please leave a message and we will get back to you as soon as possible!</p>
+                    <p class="fs-5 mt-4">Please leave a message and we will get back to you as soon as possible!</p>
                 </div>
                 <div class="row mt-5">
                     <div class="col-12 col-md-6 mt-2">
@@ -506,27 +509,28 @@
                         <div class="col-12 col-md-3 mb-3">
                             <h4 class="fw-bold mb-3">About Us</h4>
                             <p>
-                                At Patel Dental Clinic, your oral health is our top priority. As a valued member of our
-                                dental family, we're thrilled to have you join us on this journey of exceptional oral
-                                care.
-                                Our dedicated team is committed to providing you with quality dental care in the most
-                                welcoming environment.
+                                At Mediverse Dental and Aesthetic Clinic, we make sure that you get the most distinctive
+                                experience. The Clinic incorporates strict hygiene and sterilization protocols and is
+                                equipped with all the advanced technology.
                             </p>
                         </div>
                         <div class="col-12 col-md-4 mb-3">
                             <h4 class="fw-bold mb-3">Our Location</h4>
                             <p>
-                                Suite#7, 128 Mono Tower, Allama Iqbal Road, off Tariq Road, P.E.C.H.S Block 2, Karachi
+                                St. 1/A Main University Road beside Health Icon Hospital, Block 6 Gulshan e Iqbal,
+                                Karachi.
                             </p>
                             <ul class="nav flex-column footer-nav mt-4">
                                 <li class="nav-item">
                                     <a class="nav-link " href="https://wa.me/+923327634578">
-                                        <img src="images/social/whatsapp.png" alt="" width="20px"> <span>03327634578</span>
+                                        <img src="images/social/whatsapp.png" alt="" width="20px">
+                                        <span>03327634578</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="tel:+923327634578">
-                                        <img src="images/social/telephone.png" alt="" width="20px"> <span>03327634578</span>
+                                        <img src="images/social/telephone.png" alt="" width="20px">
+                                        <span>03327634578</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -587,7 +591,7 @@
                 <div class="container-lg">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="copyright">Copyright © 2023 MediverseClinics. All Rights Reserved Powered By
-                            A.S.WebDev.</div>
+                           <a href="#">A.S.WebDev.</a></div>
                         <div>
                             <img src="./images/logo.png" alt="logo" width="100%" height="50px">
                         </div>
@@ -600,7 +604,22 @@
         </section>
 
 
+        <!-- Full screen modal -->
+        <div class="modal" id="exampleModal">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
 
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Mediverse Clinics video will upload soon.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     </div>
