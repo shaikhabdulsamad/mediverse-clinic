@@ -137,6 +137,18 @@ height: 70px;
 
 }
 
+.btn-more{
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 50px;
+    padding: 10px 60px;
+    transition: 0.5s;
+}
+.btn-more:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
 @media only screen and (max-width:992px){
     .slider-text{
 
